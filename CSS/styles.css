@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(193, 241, 225);
+}
+.bodyf {
+  margin: 120px 450px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  -webkit-box-shadow: 6px 10px 32px -2px rgba(0, 0, 0, 0.41);
+  box-shadow: 6px 10px 32px -2px rgba(0, 0, 0, 0.41);
+}
+.b-one {
+  background-color: white;
+  padding: 35px 62px 35px 45px;
+  border-radius: 8px 8px 0 0;
+}
+.p-one {
+  color: rgb(26, 154, 158);
+  font-size: 25px;
+  margin: 8px 0 30px;
+}
+.p-two {
+  color: rgb(207, 231, 97);
+  font-size: 20px;
+}
+.p-three {
+  color: rgb(194, 195, 196);
+  line-height: 28px;
+  margin: -10px 0 0 0;
+}
+.b-four {
+  display: flex;
+}
+.b-two {
+  width: 50%;
+  background-color: rgba(26, 154, 158, 0.904);
+  color: aliceblue;
+  padding: 20px 40px 20px 45px;
+}
+.number {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.text {
+  color: rgba(254, 254, 255, 0.664);
+  margin-left: 15px;
+}
+.p-five {
+  display: flex;
+  align-items: center;
+}
+.p-six {
+  color: rgba(255, 255, 255, 0.849);
+}
+button {
+  background-color: rgb(207, 231, 97);
+  border: none;
+  color: rgb(240, 248, 255);
+  width: 222px;
+  height: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 10px 32px -2px rgba(0, 0, 0, 0.41);
+  box-shadow: 6px 10px 32px -2px rgba(0, 0, 0, 0.41);
+  margin: 20px 0 20px;
+}
+.b-three {
+  width: 50%;
+  background-color: rgba(36, 170, 148, 0.788);
+  padding: 20px 47px 13px 45px;
+}
+
+.p-seven {
+  color: aliceblue;
+}
+.p-eight {
+  color: rgba(240, 248, 255, 0.767);
+  line-height: 23px;
+  font-size: 13px;
+}
+@media (max-width: 600px) {
+  .bodyf {
+    margin: 85px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .b-one {
+    background-color: white;
+    padding: 30px 30px 34px 30px;
+    border-radius: 8px 8px 0 0;
+  }
+  .p-one {
+    color: rgb(26, 154, 158);
+    font-size: 20px;
+    margin: 8px 0 30px;
+  }
+  .p-two {
+    color: rgb(207, 231, 97);
+    font-size: 16px;
+  }
+  .p-three {
+    color: rgb(194, 195, 196);
+    line-height: 23px;
+    margin: 15px 0 0 0;
+  }
+  .p-four {
+    font-size: 18px;
+  }
+  .b-four {
+    display: flex;
+    flex-direction: column;
+  }
+  .b-two {
+    width: 240px;
+    background-color: rgba(26, 154, 158, 0.904);
+    color: aliceblue;
+    padding: 15px 30px 20px 30px;
+  }
+  .number {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .p-five {
+    display: flex;
+    align-items: center;
+  }
+  .p-six {
+    color: rgba(255, 255, 255, 0.849);
+  }
+  button {
+    width: 243px;
+    height: 48px;
+    margin: 20px 0 8px;
+  }
+  .b-three {
+    width: 240px;
+    background-color: rgba(36, 170, 148, 0.788);
+    padding: 15px 30px 15px 30px;
+  }
+}
